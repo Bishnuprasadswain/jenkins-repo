@@ -1,7 +1,7 @@
 pipeline{
     tools{
-        jdk 'JAVA_HOME'
-        maven 'M2_HOME'
+        jdk 'JAVA-HOME-WINDOWS'
+        maven 'M2-HOME-WINDOWS'
     }
     agent { label 'windows'}
     
